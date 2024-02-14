@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@deno/mod.js';
+import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@v0.2.0-deno/mod.js';
 ```
 
 #### everyByRight( collection, predicate\[, thisArg ] )
@@ -176,7 +176,7 @@ var mean = context.sum / context.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@deno/mod.js';
+import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@v0.2.0-deno/mod.js';
 
 function isPositive( value ) {
     return ( value > 0 );
