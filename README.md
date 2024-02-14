@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-every-by-right/tags). For example,
+
+```javascript
 import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@v0.2.0-esm/index.mjs';
 ```
 
@@ -181,7 +186,7 @@ var mean = context.sum / context.count;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@v0.2.0-esm/index.mjs';
+import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@esm/index.mjs';
 
 function isPositive( value ) {
     return ( value > 0 );
