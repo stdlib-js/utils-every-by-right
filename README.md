@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@esm/index.mjs';
+import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@v0.2.0-esm/index.mjs';
 ```
 
 #### everyByRight( collection, predicate\[, thisArg ] )
@@ -181,7 +181,7 @@ var mean = context.sum / context.count;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@esm/index.mjs';
+import everyByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-every-by-right@v0.2.0-esm/index.mjs';
 
 function isPositive( value ) {
     return ( value > 0 );
